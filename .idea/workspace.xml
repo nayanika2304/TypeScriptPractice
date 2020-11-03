@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb72cef4-0cbc-4832-9f0d-8f18e7bb9cb4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/annotations/functions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotations/variables.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fetchjson/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotations/arrays.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotations/classes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotations/interfaces.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotations/objects.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotations/tuples.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/annotations/functions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/annotations/functions.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +45,15 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -64,7 +69,8 @@
       <updated>1604329758275</updated>
       <workItem from="1604329759313" duration="178000" />
       <workItem from="1604329947888" duration="2807000" />
-      <workItem from="1604341397606" duration="7949000" />
+      <workItem from="1604341397606" duration="7981000" />
+      <workItem from="1604430219421" duration="7237000" />
     </task>
     <task id="LOCAL-00001" summary="started project">
       <created>1604330014051</created>
@@ -73,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604330014051</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="annotations">
+      <created>1604353327041</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604353327041</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,24 +99,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="started project" />
-    <option name="LAST_COMMIT_MESSAGE" value="started project" />
+    <MESSAGE value="annotations" />
+    <option name="LAST_COMMIT_MESSAGE" value="annotations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="686" y="354" width="605" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604334208597">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="686" y="354" width="605" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1604334208597" />
-    <state x="532" y="101" width="912" height="903" key="CommitChangelistDialog2" timestamp="1604330014003">
+    <state x="532" y="101" width="912" height="903" key="CommitChangelistDialog2" timestamp="1604353326990">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="532" y="101" width="912" height="903" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1604330014003" />
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1604338805470">
+    <state x="532" y="101" width="912" height="903" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1604353326990" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1604353347451">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1604338805470" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1604330019146">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1604353347451" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1604353334177">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1604330019146" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1604353334177" />
   </component>
 </project>
