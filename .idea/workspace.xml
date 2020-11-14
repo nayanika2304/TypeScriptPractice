@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb72cef4-0cbc-4832-9f0d-8f18e7bb9cb4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/annotations/decorator.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotations/generics.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rxjs/simpleCode.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +12,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,15 +47,13 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -74,7 +72,8 @@
       <workItem from="1604341397606" duration="7981000" />
       <workItem from="1604430219421" duration="16076000" />
       <workItem from="1604527056709" duration="3279000" />
-      <workItem from="1604934208846" duration="5048000" />
+      <workItem from="1604934208846" duration="5268000" />
+      <workItem from="1605387957937" duration="3251000" />
     </task>
     <task id="LOCAL-00001" summary="started project">
       <created>1604330014051</created>
@@ -104,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604530087803</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="decorator, generics">
+      <created>1604949054000</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604949054000</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,24 +126,25 @@
     <MESSAGE value="started project" />
     <MESSAGE value="annotations" />
     <MESSAGE value="finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished" />
+    <MESSAGE value="decorator, generics" />
+    <option name="LAST_COMMIT_MESSAGE" value="decorator, generics" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="686" y="354" width="605" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604334208597">
+    <state x="686" y="354" width="610" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605393707418">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="686" y="354" width="605" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1604334208597" />
-    <state x="532" y="101" width="912" height="903" key="CommitChangelistDialog2" timestamp="1604530087727">
+    <state x="686" y="354" width="610" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1605393707418" />
+    <state x="532" y="101" width="912" height="903" key="CommitChangelistDialog2" timestamp="1604949053943">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="532" y="101" width="912" height="903" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1604530087727" />
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1604530504088">
+    <state x="532" y="101" width="912" height="903" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1604949053943" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1604949238142">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1604530504088" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1604530094477">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1604949238142" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1604949067045">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1604530094477" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1604949067045" />
   </component>
 </project>
